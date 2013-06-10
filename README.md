@@ -1,29 +1,11 @@
 # Rot13
 
-TODO: Write a gem description
+TODO: This is a sample gem to explain TDD and use in a sample rails application
 
-## Installation
+# Getting started:
 
-Add this line to your application's Gemfile:
-
-    gem 'rot13'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install rot13
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Contributing
-
-1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create new Pull Request
+  1) clone or fork this repo
+  2) bundle install
+  3) run rake to see the failing spec
+  4) Satisfy the failing spec with your own code
+  5) Come back to me for the next lesson
