@@ -14,4 +14,8 @@ describe Rot13 do
   it "ignores accents" do
     Rot13.cipher("ééààçô").must_equal "rrnnpb"
   end
+
+  it "deciphers text that was already rot13" do
+    Rot13.decipher("rrnnpb").must_equal "ééààçô"
+  end
 end
